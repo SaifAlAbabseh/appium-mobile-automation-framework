@@ -1,11 +1,11 @@
-package stepdefinitions;
+package stepdefinitions.all_chat_project;
 
 import helpers.MainHelpers;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.*;
 import static org.testng.Assert.*;
-import screens.LoginScreen;
-import screens.MainScreen;
+import screens.all_chat_project.LoginScreen;
+import screens.all_chat_project.MainScreen;
 import util.EnvConfig;
 import util.Screen;
 

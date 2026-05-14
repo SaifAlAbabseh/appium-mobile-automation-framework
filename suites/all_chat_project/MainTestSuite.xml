@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Chat Test Suite">
+    <test name="All Chat Test">
+        <classes>
+            <class name="runners.projects.all_chat_project.RegressionTest" />
+        </classes>
+    </test>
+</suite>
