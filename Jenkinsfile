@@ -22,7 +22,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                        url: 'https://github.com/SaifAlAbabseh/All-Chat-Mobile-Test-Automation'
+                        url: 'https://github.com/SaifAlAbabseh/appium-mobile-automation-framework'
             }
         }
 
