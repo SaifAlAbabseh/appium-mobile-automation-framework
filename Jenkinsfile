@@ -110,7 +110,7 @@ pipeline {
             steps {
                 sh '''
                 #!/bin/bash
-                mvn clean test -DsuiteXmlFile=suites/MainTestSuite.xml -Dplatform=${platform}
+                mvn clean test -DsuiteXmlFile=suites/all_chat_project/MainTestSuite.xml -Dplatform=${platform}
                 '''
             }
         }

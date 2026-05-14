@@ -71,7 +71,7 @@ jobs:
             emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
             disable-animations: false
             script: |
-              mvn clean test -DsuiteXmlFile=suites/MainTestSuite.xml -Dplatform='${{ matrix.platform }}'
+              mvn clean test -DsuiteXmlFile=suites/all_chat_project/MainTestSuite.xml -Dplatform='${{ matrix.platform }}'
 
         - name: Upload Screenshots of the Failed Tests
           if: ${{ failure() }}
